@@ -28,13 +28,13 @@
 .left {
     margin-left: -7%;
     left: 0;
-    background-image: url('./images/background_lamp_left.png'); /* Path to your left image */
+    background-image: url('./images/background_lamp_right2.png'); /* Path to your left image */
 }
 
 .right {
     margin-right: -8%;
     right: 0;
-    background-image: url('./images/background_lamp_right2.png'); /* Path to your right image */
+    background-image: url('./images/background_lamp_left.png'); /* Path to your right image */
 }
 
 .slider-container {
