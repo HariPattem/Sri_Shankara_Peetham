@@ -325,7 +325,7 @@
     .panchangam h2 {
         margin-top: 10%;
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         color: red;
     }
     
@@ -333,10 +333,11 @@
         font-weight: bold;
         font-size: 12px;
         color: #5c0ec9;
-        margin-bottom: 5px; /* Adjust margin-bottom */
+        margin-bottom: 0px; /* Adjust margin-bottom */
     }
     
     .pan {
+        margin-top: -10px;
         font-weight: bold;
         font-size: 12px;
         color: red;
@@ -346,7 +347,7 @@
         font-weight: bold;
         font-size: 12px;
         color: #5c0ec9;
-        margin-top: 0; /* Adjust margin-top */
+        margin-top: 0px; /* Adjust margin-top */
     }
     .Devote {
         background-image: url('images/donate-bg.png');
