@@ -67,7 +67,7 @@ const appRoutes: Routes=[
     FormsComponent,
     PrasadamFormComponent,
     DevottiFormComponent,
-    ShaadhamFormComponent
+    ShaadhamFormComponent 
     
   ],
   imports: [
