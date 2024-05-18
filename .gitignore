@@ -40,3 +40,31 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+#sreekanth add
+# GitHub Pages
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.jekyll-cache/
+
+# Exclude all Jekyll files
+_config.yml
+Gemfile
+Gemfile.lock
+# Ignore security-related files or directories
+config.ini
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.csr
+*.jks
+*.keystore
+*.cert
+*.enc
+*.pass
+*.pub
