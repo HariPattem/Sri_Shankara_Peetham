@@ -280,7 +280,7 @@ header {
         font-weight: bold; /* Added to make text bold */
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 686px) {
     .header-content {
       
         text-align: center;

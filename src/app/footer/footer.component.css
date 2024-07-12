@@ -280,7 +280,7 @@ h2 {
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 686px) {
     .footer-menu li,
     .social-icons li {
         font-size: 14px; /* Adjust font size for smaller screens */
