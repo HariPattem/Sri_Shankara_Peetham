@@ -151,7 +151,149 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 856px) {
+    /* your-component.component.css */
+
+.daran {
+    /* This sets the background image */
+    background-image: url('images/background_pooja_services.png');
+    background-size:cover; /* Adjust to your needs */
+    background-position: center; /* Adjust to your needs */
+    /* Add more styling properties as needed */
+  
+    height: 100px; /* Set a height for your div */
+}
+.background-image-div {
+    position: relative;
+    background-image: url('images/Background_Theme_1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+    height: 2000px;
+}
+
+
+.left-background-image {
+   display: none;
+}
+
+.right-background-image {
+   display: none;
+}
+
+.inside-img {
+    /* Set the background image */
+    background-image: url('images/pooja_serices_bg3.jpg');
+    /* Set background image size */
+    background-size: 100% 100%;
+    margin-left: 5%;
+    text-align: center;
+    color: #ffffff;
+    /* Set background image position */
+    background-position: center;
+    /* Optional: Add more styling if needed */
+    width: 90%; /* Adjust width if needed */
+    height: 85%; /* Adjust height if needed */
+  }
+  
+  .inside-img h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.image {
+    background-image: url('images/b-flower.png');
+    background-position: center; /* Center the background image */
+    background-size: 100% 100%; /* Cover the entire div */
+    margin-left: 12%;
+    width: 80%; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    margin-top: 40px; /* Add margin only to the top */
+    background-size: 70% auto; /* Adjust background size as needed */
+    background-position: center 130px; /* Adjust background position as needed */
+    background-repeat: no-repeat;
+}
+.gallery {
+    margin-right: 5%; /* Reduce right margin */
+    margin-left: 5%; /* Reduce left margin */
+    margin-top: 0%; /* Adjust top margin */
+   
+   
+  }
+
+  .col {
+    flex: 0 0 calc(50% - 20px); /* Adjust width for two images per row */
+    margin: 10px; /* Adjust margin for smaller screens */
+ 
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensure two images per row */
+    margin-bottom: 30px; /* Adjust margin between rows */
+  }
+  .img{
+    width: 80%;
+    height: 80%;
+    
+}
+  
+  
+  
+
+
+@keyframes zoomIn {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.top-button {
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    width: 140px;
+    height: 40px;
+    background-color: #b03838;
+    border: 2px solid #b03838;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 12px; /* Increase the font size */
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    animation: zoomIn 1s infinite; /* Apply the zoomIn animation */
+}
+
+
+.top-button:nth-child(1) {
+    left: 10%;
+}
+
+.top-button:nth-child(2) {
+    left: 43%;
+}
+
+.top-button:nth-child(3) {
+    left: 75%;
+}
+
+.top-button:hover {
+    box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
+    animation: none; /* Disable the animation on hover */
+}
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
     /* your-component.component.css */
 
 .daran {
@@ -208,7 +350,7 @@
     background-image: url('images/b-flower.png');
     background-position: center; /* Center the background image */
     background-size: 100% 100%; /* Cover the entire div */
-    margin-left: 15%;
+    margin-left: 11%;
     width: 80%; /* Adjust width as needed */
     height: 250px; /* Adjust height as needed */
     margin-top: 40px; /* Add margin only to the top */
@@ -253,7 +395,7 @@
     font-weight: bold;
     position: absolute;
     top: 40px;
-    width: 110px;
+    width: 135px;
     height: 35px;
     background-color: #b03838;
     border: 2px solid #b03838;
@@ -269,26 +411,26 @@
 
 
 .top-button:nth-child(1) {
-    left: 20%;
+    left: 3%;
 }
 
 .top-button:nth-child(2) {
-    left: 43%;
+    left: 38%;
 }
 
 .top-button:nth-child(3) {
-    left: 65%;
+    left: 72%;
 }
+
 
 .top-button:hover {
     box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
     animation: none; /* Disable the animation on hover */
 }
-
 }
 
 /* Extra styles for smaller screens like mobile phones */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
    
 .daran {
     /* This sets the background image */

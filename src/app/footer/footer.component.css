@@ -8,13 +8,12 @@ footer {
     padding: 20px 0;
     text-align: center;
     font-family: Arial, sans-serif;
-   
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Change from center to flex-start */
 }
 
 .left-section {
@@ -30,15 +29,17 @@ footer {
 
 .right-section {
     flex: 1;
+    margin-right: 15%;
     text-align: right;
 }
+
 .middle-section header {
     background-image: url('images/b-flower.png');
-    
     background-size: 50% auto; /* Adjust background size as needed */
     background-position: center 25px; /* Adjust background position as needed */
     background-repeat: no-repeat;
 }
+
 /* Styles for the middle section */
 .middle-section header h2 {
     font-weight: bold; /* Make the main heading bold */
@@ -51,44 +52,35 @@ footer {
     line-height: 1.6; /* Set the line height of the paragraph */
 }
 
-.right-section {
-    flex: 1;
-    margin-right: 15%;
-    text-align: right;
-}
-
 .footer-menu, .social-icons {
     list-style: none;
-
     padding: 0;
 }
 
-.footer-menu li{
+.footer-menu li {
     margin: 5px 5px; /* Added margin to create space between menu items */
     display: inline-block; /* Display items horizontally */
     font-size: 18px;
     width: calc(50% - 10px);
 }
+
 .social-icons li {
-  
     margin: 0 10px;
-    
 }
 
-.footer-menu li a{
+.footer-menu li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold; /* Added to make menu items bold */
     font-size: 16px;
-  
-   /* Added border radius to menu items */
+    /* Added border radius to menu items */
     transition: background-color 0.3s; /* Added transition effect */
 }
+
 .social-icons li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold; /* Added to make menu items bold */
-    
     padding: 10px 20px; /* Added padding to menu items */
     border-radius: 5px; /* Added border radius to menu items */
     transition: background-color 0.3s; /* Added transition effect */
@@ -98,6 +90,7 @@ footer {
     text-decoration: underline;
     background-color: rgba(255, 255, 255, 0.1); /* Added hover background color */
 }
+
 .social-icons li a:hover {
     text-decoration: underline;
     background-color: rgba(255, 255, 255, 0.1); /* Added hover background color */
@@ -108,6 +101,7 @@ h2 {
     color: rgb(14, 232, 25);
     font-family: Arial, sans-serif;
 }
+
 .contact-menu {
     list-style-type: none; /* Remove default list styles */
     padding: 0; /* Remove default padding */
@@ -126,12 +120,11 @@ h2 {
     font-weight: bold; /* Make the first list item bold */
     font-size: 24px;
     color: rgb(255, 183, 0);
-
 }
 
 .contact-menu li:not(:first-child) {
     font-size: 18px;
-    color: #ffffff;/* Change color of all list items except the first one */
+    color: #ffffff; /* Change color of all list items except the first one */
 }
 
 .contact-menu li:not(:first-child)::before {
@@ -139,17 +132,16 @@ h2 {
     margin-right: 5px; /* Add some space between the bullet point and the text */
 }
 
-  
 .social-buttons {
     display: flex;
-    margin-right: -90%;
     justify-content: center;
+    margin-right: -90%;
 }
 
 .social-buttons button {
     width: 50px; /* Adjust width as needed */
     height: 50px; /* Adjust height as needed */
-    background-color: transparent; 
+    background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat;
     border: none;
@@ -167,8 +159,9 @@ h2 {
 .youtube {
     background-image: url('images/youtube_icon.png'); /* Replace with the path to your YouTube icon image */
 }
+
 .facebook {
-    background-image: url('images/Facebook_Logo.png'); /* Replace with the path to your YouTube icon image */
+    background-image: url('images/Facebook_Logo.png'); /* Replace with the path to your Facebook icon image */
 }
 
 
@@ -221,25 +214,35 @@ h2 {
     }
    
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 856px) {
     .footer-menu li,
     .social-icons li {
         font-size: 14px; /* Adjust font size for smaller screens */
+
     }
 
     .middle-section header {
         background-size: 70% auto; /* Adjust background size for smaller screens */
-        font-size: 12;
+        font-size: 20px;
+    }
+
+    .middle-section p {
+        margin-top: 10px; /* Add some space between the heading and the paragraph */
+        font-size: 18px; /* Set the font size of the paragraph */
+        line-height: 1.6; /* Set the line height of the paragraph */
+        margin-left: 20px;
+        display: inline-block;
     }
     .social-buttons {
+      
         display: flex;
-        margin-right: 0%;
+        margin-right: -100px;
         justify-content: center;
     }
     
     .social-buttons button {
-        width: 20px; /* Adjust width as needed */
-        height: 20px; /* Adjust height as needed */
+        width: 30px; /* Adjust width as needed */
+        height: 30px; /* Adjust height as needed */
         background-color: transparent; 
         background-size: cover;
         background-repeat: no-repeat;
@@ -247,20 +250,98 @@ h2 {
         margin: 5px; /* Adjust margin as needed */
     }
     .left-section {
-        flex: 1;
-        margin-left: 0%;
-        text-align: left;
+     display: none;
     }
     .left-section {
-        flex: 1;
-        margin-left: 0%;
-        text-align: left;
+       display: none;
     }
     h2 {
         font-size: 20px;
         font-weight: bold; /* Added to make the heading bold */
         color: rgb(14, 232, 25);
         font-family: Arial, sans-serif;
+    }
+
+    .followid {
+        margin-top: 30%;
+        font-weight: bold; /* Added to make the heading bold */
+        color: rgb(14, 232, 25);
+        font-family: Arial, sans-serif;
+    }
+    .contact-menu li:first-child {
+        font-weight: bold; /* Make the first list item bold */
+        font-size: 18px;
+        color: rgb(255, 183, 0);
+    }
+    .contact-menu li:not(:first-child) {
+        font-size: 18px;
+        color: #ffffff; /* Change color of all list items except the first one */
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-menu li,
+    .social-icons li {
+        font-size: 14px; /* Adjust font size for smaller screens */
+
+    }
+
+    .middle-section header {
+        background-size: 70% auto; /* Adjust background size for smaller screens */
+        font-size: 12;
+    }
+
+    .middle-section p {
+        margin-top: 10px; /* Add some space between the heading and the paragraph */
+        font-size: 16px; /* Set the font size of the paragraph */
+        line-height: 1.6; /* Set the line height of the paragraph */
+        margin-left: 20px;
+        display: inline-block;
+    }
+    .social-buttons {
+      
+        display: flex;
+        margin-right: -10px;
+        justify-content: center;
+    }
+    
+    .social-buttons button {
+        width: 30px; /* Adjust width as needed */
+        height: 30px; /* Adjust height as needed */
+        background-color: transparent; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: none;
+        margin: 5px; /* Adjust margin as needed */
+    }
+    .left-section {
+     display: none;
+    }
+    .left-section {
+       display: none;
+    }
+    h2 {
+        font-size: 18px;
+        font-weight: bold; /* Added to make the heading bold */
+        color: rgb(14, 232, 25);
+        font-family: Arial, sans-serif;
+    }
+
+    .followid {
+        margin-top: 100%;
+        font-weight: bold; /* Added to make the heading bold */
+        color: rgb(14, 232, 25);
+        font-family: Arial, sans-serif;
+    }
+    .contact-menu li:first-child {
+        font-weight: bold; /* Make the first list item bold */
+        font-size: 18px;
+        color: rgb(255, 183, 0);
+    }
+    .contact-menu li:not(:first-child) {
+        font-size: 16px;
+        color: #ffffff; /* Change color of all list items except the first one */
     }
     
 }
@@ -299,14 +380,16 @@ h2 {
         margin: 2px; /* Adjust margin as needed */
     }
     .left-section {
-        flex: 1;
+        /* flex: 1;
         margin-left: 0%;
-        text-align: left;
+        text-align: left; */
+        display: none;
     }
     .left-section {
-        flex: 1;
+        /* flex: 1;
         margin-left: 0%;
-        text-align: left;
+        text-align: left; */
+        display: none;
     }
     h2 {
         font-size: 12px;
@@ -343,6 +426,11 @@ h2 {
         font-size: 10px; /* Set the font size of the paragraph */
         line-height: 1.6; /* Set the line height of the paragraph */
     }
+ 
+     .right-section{
+        font-size: 12px;
+        margin-right: 15px;
+    } 
     
     
 } 

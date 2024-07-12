@@ -13,6 +13,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .header-content {
@@ -23,28 +24,32 @@ header {
 
 /* Styling for the logo */
 .logo {
-    width: 280px;
-    height: 280px;
-    background-image: url('images/logo1.png');
+    width: 200px;
+    height: 200px;
+    background-image: url('images/Sree_Peetham_logo.png');
    margin-top: 0%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-right: 150px; /* Add margin at the bottom */
+    margin-right: 250px; /* Add margin to the right */
 }
 
 /* Styling for the heading */
 .heading {
-    font-size: 65px;
+    font-size: 45px;
     font-weight: bold;
     margin-top: 0%;
-    margin-left: 0%; /* Add margin to the left of the heading */
+    margin-left: -20%; /* Add margin to the left of the heading */
     text-align: center;
     white-space: nowrap; /* Prevent text from wrapping onto multiple lines */
+  
 }
 
+.sreePeetam{
+    font-size: 35px;
+}
 /* Styling for the picture */
-.picture {
+/* .picture {
     width: 150px;
     height: 150px;
     background-image: url('images/logo2.png');
@@ -52,9 +57,9 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 0%;
-    margin-left: 200px;
+    margin-left: 100px;
    
-}
+} */
 
 /* Styling for the buttons */
 
@@ -63,7 +68,7 @@ header {
     background-color: transparent; /* Make button background transparent */
     border: none; /* Remove button border */
     margin: 0px; /* Add some margin between buttons */
-    padding: 48px 58px; /* Add padding to buttons */
+    padding: 45px 55px; /* Add padding to buttons */
     cursor: pointer; /* Change cursor to pointer */
     
 }
@@ -123,7 +128,7 @@ header {
 
 
 /* Media Query for Mobile Devices */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1026px) {
     .header-content {
       
         text-align: center;
@@ -136,14 +141,15 @@ header {
         margin-bottom: 10px;
     }
     .logo {
-        width: 150px;
-        height: 150px;
-        margin-right: 50px;
+        width: 180px;
+        height: 180px;
+        margin-right: 180px;
         margin-bottom: 10px;
     }
 
     .heading {
         font-size: 40px;
+        margin-right: -80px;
     }
     .buttons button {
         padding: 4px 6px;
@@ -184,19 +190,97 @@ header {
         background-color: transparent; /* Make button background transparent */
         border: none; /* Remove button border */
         margin: 8px; /* Add some margin between buttons */
-        padding: 25px 35px; /* Add padding to buttons */
+        padding: 32px 42px; /* Add padding to buttons */
         cursor: pointer; /* Change cursor to pointer */
         
     }
     .buttons button a {
         color: white;
         text-decoration: none;
-        font-size: 12px; /* Added 'px' unit */
+        font-size: 14px; /* Added 'px' unit */
         font-weight: bold; /* Added to make text bold */
     }
     
 }
-@media screen and (max-width: 800px) {
+
+
+@media screen and (max-width: 856px) {
+    .header-content {
+      
+        text-align: center;
+    }
+
+    .picture {
+        width: 120px;
+        height: 120px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .logo {
+        width: 140px;
+        height: 140px;
+        margin-right: 130px;
+        margin-bottom: 10px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+    .sreePeetam{
+        font-size: 20px;
+    }
+
+    .buttons button {
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .buttons button {
+        padding: 2px 4px;
+        font-size: 10px;
+    }
+    .buttons button:nth-child(1) {
+        background-size:100px;
+       
+     }
+     
+     .buttons button:nth-child(2) {
+         background-size: 100px;
+        
+     }
+     
+     .buttons button:nth-child(3) {
+         background-size: 100px;
+        
+     }
+     
+     .buttons button:nth-child(4) {
+         background-size: 100px;
+        
+     }
+     .buttons button:nth-child(5) {
+        background-size: 100px;
+       
+    }
+    .buttons button:nth-child(6) {
+        background-size: 100px;
+       
+    }
+    .buttons button {
+        background-color: transparent; /* Make button background transparent */
+        border: none; /* Remove button border */
+        margin: 4px; /* Add some margin between buttons */
+        padding: 20px 30px; /* Add padding to buttons */
+        cursor: pointer; /* Change cursor to pointer */
+        
+    }
+    .buttons button a {
+        color: white;
+        text-decoration: none;
+        font-size: 8px; /* Added 'px' unit */
+        font-weight: bold; /* Added to make text bold */
+    }
+}
+@media screen and (max-width: 600px) {
     .header-content {
       
         text-align: center;
@@ -211,12 +295,15 @@ header {
     .logo {
         width: 120px;
         height: 120px;
-        margin-right: 0px;
+        margin-right: 100px;
         margin-bottom: 10px;
     }
 
     .heading {
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .sreePeetam{
+        font-size: 18px;
     }
 
     .buttons button {
@@ -269,7 +356,7 @@ header {
         font-weight: bold; /* Added to make text bold */
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 10px) {
     .header-content {
       
         text-align: center;
@@ -282,14 +369,14 @@ header {
         margin-bottom: 0px;
     }
     .logo {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         margin-right: 0;
         margin-bottom: 0px;
     }
 
     .heading {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .buttons button {
@@ -335,6 +422,90 @@ header {
         color: white;
         text-decoration: none;
         font-size: 6px; /* Added 'px' unit */
+        font-weight: bold; /* Added to make text bold */
+    }
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+    .header-content {
+        text-align: center;
+    }
+
+    .picture {
+        width: 120px;
+        height: 120px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-right: 60px;
+        margin-bottom: 10px;
+    }
+
+    .heading {
+        font-size: 15px;
+        margin-right: -40px;
+    }
+    .sreePeetam{
+        font-size: small;
+    }
+
+    .buttons button {
+        padding: 4px 6px;
+        font-size: 10px;
+    }
+    .buttons button {
+        padding: 2px 4px;
+        font-size: 6px;
+    }
+    .buttons button:nth-child(1) {
+        background-size: 80px;
+       
+     }
+     
+     .buttons button:nth-child(2) {
+         background-size: 80px;
+        
+     }
+     
+     .buttons button:nth-child(3) {
+         background-size: 80px;
+        
+     }
+     
+     .buttons button:nth-child(4) {
+         background-size: 80px;
+        
+     }
+     .buttons button:nth-child(5) {
+        background-size: 80px;
+       
+    }
+    .buttons button:nth-child(6) {
+        background-size: 80px;
+       
+    }
+    .buttons button {
+        background-color: transparent; /* Make button background transparent */
+        border: none; /* Remove button border */
+        margin: 4px; /* Add some margin between buttons */
+        padding: 10px 20px; /* Add padding to buttons */
+        cursor: pointer; /* Change cursor to pointer */
+        
+    }
+    .buttons button a {
+        color: white;
+        text-decoration: none;
+        font-size: 8px; /* Added 'px' unit */
         font-weight: bold; /* Added to make text bold */
     }
 }
