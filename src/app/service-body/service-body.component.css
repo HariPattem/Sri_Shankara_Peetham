@@ -470,7 +470,7 @@
     padding: 10px;
     margin: 0; /* Remove default margin */
     /* Add other styles for the heading */
-    margin-top: -6%;
+    margin-top: -12%;
     font-family: "Monaco", sans-serif; /* Change font style */
 }
 /* your-component.component.css */
@@ -544,7 +544,7 @@
     background-size: 100% 100%;
     background-position: center;
     font-family: Arial, sans-serif; 
-    height: 1700px;
+    height: 1800px;
 }
 
 
@@ -587,7 +587,7 @@
     height: 250px; /* Adjust height as needed */
     margin-top: 40px; /* Add margin only to the top */
     background-size: 70% auto; /* Adjust background size as needed */
-    background-position: center 90px; /* Adjust background position as needed */
+    background-position: center 110px; /* Adjust background position as needed */
     background-repeat: no-repeat;
 }
 
@@ -807,7 +807,7 @@
     font-weight: bold;
     position: absolute;
     top: 30px;
-    width: 80px;
+    width: 85px;
     height: 35px;
     background-color: #b03838;
     border: 2px solid #b03838;
@@ -823,7 +823,7 @@
 
 
 .top-button:nth-child(1) {
-    left: 8%;
+    left: 5%;
 }
 
 .top-button:nth-child(2) {
@@ -831,7 +831,7 @@
 }
 
 .top-button:nth-child(3) {
-    left: 68%;
+    left: 71%;
 }
 
 .top-button:hover {

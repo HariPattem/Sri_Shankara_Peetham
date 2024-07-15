@@ -28,6 +28,7 @@
     background-image: url('images/Banana_Tree_rigth.png'); /* Specify the left image path */
     background-size: 100% 100%;
     background-position: center;
+    display: none;
 }
 
 .right-background-image {
@@ -39,6 +40,7 @@
     background-image: url('images/Banana_Tree_left.png'); /* Specify the right image path */
     background-size: 100% 100%;
     background-position: center;
+    display: none;
 }
 
 .inside-img {
@@ -114,6 +116,99 @@
     animation: none; /* Disable the animation on hover */
 }
 
+@media screen and (max-width: 1026px) {
+    .top-button {
+        font-weight: bold;
+        position: absolute;
+        top: 40px;
+        width: 170px;
+        height: 45px;
+        background-color: #b03838;
+        border: 2px solid #b03838;
+        color: #ffffff;
+        border-radius: 20px;
+        font-size: 16px; /* Increase the font size */
+        cursor: pointer;
+        text-align: center;
+        padding: 5px 20px;
+        transition: background-color 0.3s, color 0.3s;
+        animation: zoomIn 1s infinite; /* Apply the zoomIn animation */
+    }
+    
+    .top-button a {
+        color: inherit; /* Inherit button's text color */
+        text-decoration: none; /* Remove underline */
+    }
+    .top-button:nth-child(1) {
+        left: 7%;
+    }
+    
+    .top-button:nth-child(2) {
+        left: 38%;
+    }
+    
+    .top-button:nth-child(3) {
+        left: 70%;
+    }
+    
+    .top-button:hover {
+        box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
+        animation: none; /* Disable the animation on hover */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    @keyframes zoomIn {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+    
+    .top-button {
+        font-weight: bold;
+        position: absolute;
+        top: 40px;
+        width: 170px;
+        height: 45px;
+        background-color: #b03838;
+        border: 2px solid #b03838;
+        color: #ffffff;
+        border-radius: 20px;
+        font-size: 16px; /* Increase the font size */
+        cursor: pointer;
+        text-align: center;
+        padding: 5px 20px;
+        transition: background-color 0.3s, color 0.3s;
+        animation: zoomIn 1s infinite; /* Apply the zoomIn animation */
+    }
+    
+    .top-button a {
+        color: inherit; /* Inherit button's text color */
+        text-decoration: none; /* Remove underline */
+    }
+    .top-button:nth-child(1) {
+        left: 7%;
+    }
+    
+    .top-button:nth-child(2) {
+        left: 38%;
+    }
+    
+    .top-button:nth-child(3) {
+        left: 70%;
+    }
+    
+    .top-button:hover {
+        box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
+        animation: none; /* Disable the animation on hover */
+    }
+
+    .google-form {
+        height: 1200px;
+        width: 110%; /* Adjust the width as needed */
+    }
+
+}
 
 @media screen and (max-width: 768px) {
     /* your-component.component.css */
@@ -133,7 +228,7 @@
     background-size: 100% 100%;
     background-position: center;
     font-family: Arial, sans-serif; 
-    height: 1000px;
+    height: 1500px;
 }
 
 
@@ -211,8 +306,55 @@
 
 }
 
+
+@media screen and (max-width: 602px) {
+    .background-image-div {
+        position: relative;
+        background-image: url('images/Background_Theme_1.jpg');
+        background-size: 100% 100%;
+        background-position: center;
+        font-family: Arial, sans-serif; 
+        height: 1300px;
+    }
+
+    .top-button {
+        font-weight: bold;
+        position: absolute;
+        top: 40px;
+        width: 125px;
+        height: 35px;
+        background-color: #b03838;
+        border: 2px solid #b03838;
+        color: #ffffff;
+        border-radius: 20px;
+        font-size: 12px; /* Increase the font size */
+        cursor: pointer;
+        text-align: center;
+        padding: 5px 20px;
+        transition: background-color 0.3s, color 0.3s;
+        animation: zoomIn 1s infinite; /* Apply the zoomIn animation */
+    }
+    
+    
+    .top-button:nth-child(1) {
+        left: 8%;
+    }
+    
+    .top-button:nth-child(2) {
+        left: 40%;
+    }
+    
+    .top-button:nth-child(3) {
+        left: 70%;
+    }
+    
+    .top-button:hover {
+        box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
+        animation: none; /* Disable the animation on hover */
+    }
+}
 /* Extra styles for smaller screens like mobile phones */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 435px) {
    
 .daran {
     /* This sets the background image */
@@ -274,7 +416,7 @@
     font-weight: bold;
     position: absolute;
     top: 30px;
-    width: 80px;
+    width: 85px;
     height: 35px;
     background-color: #b03838;
     border: 2px solid #b03838;

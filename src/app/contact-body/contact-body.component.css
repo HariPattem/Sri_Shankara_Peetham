@@ -177,6 +177,50 @@
 }
 
 
+
+
+@media screen and (max-width: 1026px) {
+
+    .top-button {
+        font-weight: bold;
+        position: absolute;
+        top: 40px;
+        width: 190px;
+        height: 45px;
+        background-color: #b03838;
+        border: 2px solid #b03838;
+        color: #ffffff;
+        border-radius: 20px;
+        font-size: 16px; /* Increase the font size */
+        cursor: pointer;
+        text-align: center;
+        padding: 5px 20px;
+        transition: background-color 0.3s, color 0.3s;
+        animation: zoomIn 1s infinite; /* Apply the zoomIn animation */
+    }
+    .top-button a {
+        color: inherit; /* Inherit button's text color */
+        text-decoration: none; /* Remove underline */
+    }
+    
+    .top-button:nth-child(1) {
+        left: 10%;
+    }
+    
+    .top-button:nth-child(2) {
+        left: 43%;
+    }
+    
+    .top-button:nth-child(3) {
+        left: 75%;
+    }
+    
+    .top-button:hover {
+        box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
+        animation: none; /* Disable the animation on hover */
+    }
+
+}
 @media screen and (max-width: 856px) {
     /* your-component.component.css */
 
@@ -233,7 +277,7 @@
     background-image: url('images/b-flower.png');
     background-position: center; /* Center the background image */
     background-size: 100% 100%; /* Cover the entire div */
-    margin-left: 15%;
+    margin-left: 10%;
     width: 80%; /* Adjust width as needed */
     height: 250px; /* Adjust height as needed */
     margin-top: 40px; /* Add margin only to the top */
@@ -519,7 +563,7 @@
     font-weight: bold;
     position: absolute;
     top: 30px;
-    width: 80px;
+    width: 85px;
     height: 35px;
     background-color: #b03838;
     border: 2px solid #b03838;

@@ -278,7 +278,292 @@
     box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
     animation: none; /* Disable the animation on hover */
 }
+@media screen and (max-width: 1300px) {
 
+
+
+    /* your-component.component.css */
+
+.daran {
+    /* This sets the background image */
+    background-image: url('images/background_pooja_services.png');
+    background-size: 80%100%; /* Adjust to your needs */
+    background-position: center; /* Adjust to your needs */
+    /* Add more styling properties as needed */
+  
+    height: 150px; /* Set a height for your div */
+}
+.background-image-div {
+    position: relative;
+    background-image: url('images/Background_Theme_1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+    height: 2500px;
+}
+
+
+.left-background-image {
+    position: absolute;
+    top: 8%;
+    left: -10%;
+    width: 40%; /* Adjust as needed */
+    height: 70%;
+    background-image: url('images/Banana_Tree_rigth.png'); /* Specify the left image path */
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.right-background-image {
+    position: absolute;
+    top: 8%;
+    right: -10%;
+    width: 40%; /* Adjust as needed */
+    height: 70%;
+    background-image: url('images/Banana_Tree_left.png'); /* Specify the right image path */
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.inside-img {
+    /* Set the background image */
+    background-image: url('images/pooja_serices_bg3.jpg');
+    /* Set background image size */
+    background-size: 100% 100%;
+    margin-left: 15%;
+    text-align: center;
+    color: #ffffff;
+    /* Set background image position */
+    background-position: center;
+    /* Optional: Add more styling if needed */
+    width: 70%; /* Adjust width if needed */
+    height: 90%; /* Adjust height if needed */
+  }
+  .inside-img h2 {
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+
+
+
+
+
+.image {
+    background-image: url('images/b-flower.png');
+    background-position: center; /* Center the background image */
+    background-size: 100% 100%; /* Cover the entire div */
+    margin-left: 15%;
+    width: 70%; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    margin-top: 60px; /* Add margin only to the top */
+    background-size: 70% auto; /* Adjust background size as needed */
+    background-position: center 130px; /* Adjust background position as needed */
+    background-repeat: no-repeat;
+}
+
+
+.pooja-services-container {
+    position: relative;
+    display: flex;
+    margin-top: -7%; /* Adjust as needed */
+ 
+    left: 5%;
+}
+
+.left-content {
+    margin-left: 5%;
+    margin-right: 40%;
+    font-size: 18px;
+    flex: 1;
+    padding: 9px; /* Adjust as needed */
+    text-align: justify; /* Align text both left and right */
+    text-indent: 0; /* Resetting text-indent */
+    text-indent: 0; /* Resetting text-indent */
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+
+
+
+
+.priest-image {
+    position: absolute;
+    top: 12%;
+    right: 11%; /* Adjust as needed */
+    width: 220px;
+    height: 300px;
+    background-image: url('images/priest_img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.priest-name {
+    display: inline-block;
+    position: absolute;
+    bottom: -40px; /* Adjust as needed */
+    left: 50%; /* Place at the center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-align: center; /* Center the text horizontally */
+    color: #efba17; /* Text color */
+    font-size: 28px; /* Font size */
+    padding: 5px; /* Add some padding */
+    font-family: "Arial", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); /* Shadow effect */
+}
+
+
+.education {
+    padding: 20px;
+    margin-top: -3%;
+   
+}
+
+.edh {
+    font-size: 24px;
+    color: #efba17; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+
+
+.education p {
+    margin-left: 5%;
+    font-size: 18px;
+    flex: 1;
+    padding: 20px; /* Adjust as needed */
+    text-align: justify; /* Align text both left and right */
+    text-indent: 0; /* Resetting text-indent */
+    text-indent: 0; /* Resetting text-indent */
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+
+.experience {
+
+    padding: 20px;
+  
+}
+
+.exh {
+    font-size: 24px;
+    color: #efba17; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+
+.experience ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -5%;
+}
+
+.experience li {
+    margin-top: -2%;
+    margin-right: 2%;
+    margin-left: 6%;
+    text-align: justify; /* Align text both left and right */
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+.year {
+    color: #efba17; /* Change the color as needed */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+
+
+.Awards {
+
+    padding: 20px;
+  
+}
+
+.adh {
+    font-size: 24px;
+
+
+    color: #efba17; /* Text color */
+
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+
+.Awards ul {
+    list-style-type: none;
+    margin-top: -5%;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
+}
+
+.Awards li {
+    margin-left: 11%;
+    margin-right: 5%;
+    text-align: justify; /* Align text both left and right */
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/* your-component.component.css */
+
+/* Assuming you have these two images */
+
+
+
+/* your-component.component.css */
+
+/* Assuming you have these two images */
+
+
+@keyframes zoomIn {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.top-button {
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    width: 250px;
+    height: 45px;
+    background-color: #b03838;
+    border: 2px solid #b03838;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 16px; /* Increase the font size */
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    animation: zoomIn 1s infinite; /* Apply the zoomIn animation */
+}
+.top-button a {
+    color: inherit; /* Inherit button's text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.top-button:nth-child(1) {
+    left: 20%;
+}
+
+.top-button:nth-child(2) {
+    left: 43%;
+}
+
+.top-button:nth-child(3) {
+    left: 65%;
+}
+
+.top-button:hover {
+    box-shadow: 0 0 20px rgba(220, 100, 100, 0.8); /* Glow effect on hover */
+    animation: none; /* Disable the animation on hover */
+}
+
+}
 @media screen and (max-width: 1026px) {
     /* your-component.component.css */
 
@@ -583,7 +868,7 @@
     background-size: 100% 100%;
     background-position: center;
     font-family: Arial, sans-serif; 
-    height: 2350px;
+    height: 2550px;
 }
 
 
@@ -626,7 +911,7 @@
     height: 250px; /* Adjust height as needed */
     margin-top:50px; /* Add margin only to the top */
     background-size: 70% auto; /* Adjust background size as needed */
-    background-position: center 120px; /* Adjust background position as needed */
+    background-position: center 150px; /* Adjust background position as needed */
     background-repeat: no-repeat;
 }
 
@@ -648,7 +933,7 @@
     text-indent: 0; /* Resetting text-indent */
     text-indent: 0; /* Resetting text-indent */
     font-weight: 500;
-    margin-top: 40%;
+    margin-top: 45%;
     text-shadow: 2px 2px 4px rgba(0.5, 0.5, 0.5, 1); 
 }
 
@@ -833,7 +1118,7 @@
     background-size: 100% 100%;
     background-position: center;
     font-family: Arial, sans-serif; 
-    height: 2150px;
+    height: 2250px;
 }
 
 
@@ -1051,11 +1336,11 @@
 }
 
 .top-button:nth-child(2) {
-    left: 3%;
+    left: 37%;
 }
 
 .top-button:nth-child(3) {
-    left: 72%;
+    left: 70%;
 }
 
 .top-button:hover {
@@ -1107,7 +1392,7 @@
     background-position: center;
     /* Optional: Add more styling if needed */
     width: 90%; /* Adjust width if needed */
-    height: 90%; /* Adjust height if needed */
+    height: 95%; /* Adjust height if needed */
   }
   .inside-img h2 {
     font-size: 20px;
@@ -1264,7 +1549,7 @@
     font-size: 12px;
     margin-top: -2%;
     margin-left: 14%;
-    margin-right: 14%;
+    margin-right: 12%;
     text-align: justify; /* Align text both left and right */
     margin-bottom: 10px;
 }
@@ -1282,7 +1567,7 @@
     font-weight: bold;
     position: absolute;
     top: 30px;
-    width: 80px;
+    width: 85px;
     height: 35px;
     background-color: #b03838;
     border: 2px solid #b03838;
@@ -1298,7 +1583,7 @@
 
 
 .top-button:nth-child(1) {
-    left: 8%;
+    left: 5%;
 }
 
 .top-button:nth-child(2) {
@@ -1306,7 +1591,7 @@
 }
 
 .top-button:nth-child(3) {
-    left: 68%;
+    left: 71%;
 }
 
 .top-button:hover {
@@ -1356,7 +1641,7 @@
         background-position: center;
         /* Optional: Add more styling if needed */
         width: 90%; /* Adjust width if needed */
-        height: 86%; /* Adjust height if needed */
+        height: 92%; /* Adjust height if needed */
       }
       .inside-img h2 {
         font-size: 20px;
